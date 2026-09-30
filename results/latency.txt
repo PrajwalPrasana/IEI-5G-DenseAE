@@ -1,0 +1,4 @@
+hardware: Intel64 Family 6 Model 170 Stepping 4, GenuineIntel | logical CPUs: 14 | torch 2.14.0+cpu | 1 thread
+samples: 5000 single-flow calls (200 warm-up)
+detection only      : mean 0.0953 ms  p50 0.0806  p99 0.3119
+detection+attribution: mean 0.1782 ms  p50 0.1510  p99 0.7574

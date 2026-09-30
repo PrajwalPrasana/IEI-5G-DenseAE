@@ -1,0 +1,4 @@
+flows explained: 80
+mean seconds per flow (KernelSHAP, nsamples=500, background=100): 0.026
+top-1 agreement with reconstruction-error attribution: 0.150
+mean top-3 overlap (out of 3): 1.25
