@@ -1,0 +1,6 @@
+data/
+runs/
+logs/
+*.csv.zip
+Combined.csv
+__pycache__/

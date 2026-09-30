@@ -1,0 +1,4 @@
+hardware: x86_64 | logical CPUs: 1 | torch 2.14.0+cu130 | 1 thread
+samples: 5000 single-flow calls (200 warm-up)
+detection only      : mean 0.0716 ms  p50 0.0664  p99 0.1119
+detection+attribution: mean 0.1395 ms  p50 0.1301  p99 0.2140
