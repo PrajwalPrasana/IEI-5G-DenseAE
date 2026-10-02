@@ -1,7 +1,3 @@
-"""
-analysis_figures.py -- figures + tables that show WHERE the network works and fails.
-Needs: evaluate_and_report.py already run. Outputs go to results/.
-"""
 import json, os
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt

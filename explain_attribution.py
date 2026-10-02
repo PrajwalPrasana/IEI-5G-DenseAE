@@ -1,9 +1,8 @@
 """
-explain_attribution.py -- per-feature reconstruction-error attribution (Eq. 4).
+per-feature reconstruction-error attribution (Eq. 4).
 attribution_i = (x_i - x_hat_i)^2 in scaled space; "share" = attribution_i / sum_j attribution_j.
 Outputs (display seed): results/attribution_share_by_class.csv, fig_attribution_heatmap.png,
-fig_attribution_examples.png. Example flow per class = the FLAGGED flow whose score is the
-MEDIAN among flagged flows of that class (fixed rule, no cherry-picking).
+fig_attribution_examples.png.
 """
 import json, os
 import matplotlib; matplotlib.use("Agg")

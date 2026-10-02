@@ -1,5 +1,5 @@
 """
-data_prep.py -- load 5G-NIDD Combined.csv, clean, split, scale.
+load 5G-NIDD Combined.csv, clean, split, scale.
 
 Verified facts about the real file (1,215,890 rows):
   * Label = Benign (477,737) / Malicious (738,153); per-class info is in "Attack Type".

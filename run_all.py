@@ -1,5 +1,5 @@
 """
-run_all.py -- one command for the whole study.
+one command for the whole study.
   python run_all.py --input Combined.csv            # everything
   python run_all.py --input Combined.csv --skip-shap
 Each stage's console output is also saved in logs/.

@@ -1,5 +1,5 @@
 """
-train_autoencoder.py -- train on BENIGN flows only, calibrate tau on validation-benign.
+train on BENIGN flows only, calibrate tau on validation-benign.
 Saves: runs/model_seed{S}.pt, runs/threshold_seed{S}.json, runs/history_seed{S}.csv
 Early stopping restores the BEST-validation weights (deep-copied).
 Usage: python train_autoencoder.py --seeds 42 123 256 789 1024

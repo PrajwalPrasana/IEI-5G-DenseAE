@@ -1,7 +1,6 @@
 """
-evaluate_and_report.py -- score the holdout set for every seed.
-Writes results/per_seed_overall.csv, per_seed_per_class.csv, summary.txt and
-runs/errors_seed{S}.npy (per-flow anomaly score, same row order as the holdout parquet).
+score the holdout set for every seed.
+
 tau comes from validation-benign data only. FPR = FP/(FP+TN) over benign holdout flows.
 F1 is the binary benign-vs-attack F1. CIs use the t-distribution (n = number of seeds).
 """

@@ -1,11 +1,6 @@
-"""
-config.py -- single source of truth. FROZEN before the final experiments.
-Nothing here is tuned on test data. Change nothing between runs if you
-want to reproduce the reported results.
-"""
 import os
 
-# ---- experiment protocol (frozen) ----
+#experiment protocol (frozen)
 SEEDS = [42, 123, 256, 789, 1024]
 EPOCHS = 50
 BATCH_SIZE = 256
@@ -14,7 +9,7 @@ EARLY_STOP_PATIENCE = 5
 THRESHOLD_PERCENTILE = 95        # tau = 95th percentile of VALIDATION-benign error
 DISPLAY_SEED = 42                # seed used for single-model figures (fixed in advance)
 
-# ---- data ----
+#data
 FEATURE_COLUMNS = [
     "Dur", "Proto", "SrcPkts", "DstPkts", "SrcBytes", "DstBytes",
     "SrcLoad", "DstLoad", "SrcLoss", "DstLoss", "sMeanPktSz", "dMeanPktSz",
@@ -26,7 +21,7 @@ BENIGN_LABEL = "Benign"
 MALICIOUS_LABEL = "Malicious"
 PROTO_VALUES = ["arp", "icmp", "ipv6-icmp", "lldp", "llc", "sctp", "tcp", "udp"]
 
-# ---- folders ----
+#folders
 DATA_DIR = "data"
 RUN_DIR = "runs"
 RESULTS_DIR = "results"

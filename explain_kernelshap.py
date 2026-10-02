@@ -1,5 +1,5 @@
 """
-explain_kernelshap.py -- REAL KernelSHAP (shap library) on the anomaly score, offline.
+REAL KernelSHAP (shap library) on the anomaly score, offline.
 f(x) = reconstruction MSE of the trained autoencoder (scaled feature space).
 Background: 100 benign training flows. Explained: up to N_PER_CLASS flagged flows per attack
 class (fixed random seed). Compares KernelSHAP's top feature with the reconstruction-error

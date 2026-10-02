@@ -1,5 +1,5 @@
 """
-measure_latency.py -- single-flow CPU inference latency (1 thread), 5000 random holdout flows.
+single-flow CPU inference latency (1 thread), 5000 random holdout flows.
 Times (a) detection forward pass, (b) forward pass + per-feature attribution.
 Reports mean/p50/p99 in ms and the hardware. Numbers are specific to the machine that ran this.
 """
